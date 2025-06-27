@@ -1,4 +1,4 @@
-# GameProject
+# Ray Casting
 
 A C++ SFML based Ray casting project using CMake.  
 Built and tested on Windows (MinGW) with Visual Studio Code.
