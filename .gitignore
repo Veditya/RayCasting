@@ -1,0 +1,14 @@
+/build
+/bin/
+*.exe
+*.dll
+*.obj
+*.o
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+.DS_Store
+Thumbs.db

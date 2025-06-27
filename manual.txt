@@ -1,0 +1,42 @@
+GameEngine:
+          * scenes : scene management
+          * window : init
+          * assets : asset management
+          * curr scene: current scene
+          * game running?
+          * input management
+          * runs game
+
+Scene: 
+     * game engine pointer
+     * entity manager
+     * currFrame
+     * action management
+     * pause?
+     * scene ended?
+     * update
+     * render
+   
+
+Scene Menu:
+          * menu options
+          * selected choice
+          * render 
+          * doAction
+
+Scene Play:
+          * render map
+          * Physics
+          * playerSpawn
+          * enemySpawn
+          
+
+architecture:
+
+GameEngine:
+           Scene:
+                EntityManager:
+                              Entity
+                                    Components
+
+
