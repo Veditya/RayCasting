@@ -31,10 +31,10 @@ public:
             triangle[0].position = tri[0];
             triangle[1].position = tri[1];
             triangle[2].position = tri[2];
-            sf::Color lightGrey(200, 200, 200);
-            triangle[0].color = lightGrey;
-            triangle[1].color = lightGrey;
-            triangle[2].color = lightGrey;
+            auto dark = sf::Color::Black;
+            triangle[0].color = dark;
+            triangle[1].color = dark;
+            triangle[2].color = dark;
             window.draw(triangle);
         }
     }

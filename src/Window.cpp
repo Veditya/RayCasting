@@ -28,11 +28,13 @@ void Window::Start()
                 window.close();
             if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::G)
                 gridView = !gridView;
-            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::I)
                 light.illumine = !light.illumine;
+            if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::S)
+                light.shadowfx = !light.shadowfx;
             if (event.type == sf::Event::KeyPressed && event.key.code == sf::Keyboard::O)
                 obstacle.display = !obstacle.display;
-        }
+                }
 
         window.clear(sf::Color::Black);
 
